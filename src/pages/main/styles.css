@@ -1,0 +1,76 @@
+.products-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.products-list article {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding:20px;
+    margin-bottom: 20px;
+}
+
+.products-list article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.products-list article a {
+    height: 42px;
+    border-radius: 6px;
+    border: 2px solid #109932;
+    background: none;
+    margin-top:14px;
+    color: #109932;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 400ms;
+}
+
+.products-list article a:hover {
+    background: #109932;
+    color: #fff;
+}
+
+.products-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.products-list .actions button {
+    padding: 12px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #109932;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+.products-list .actions button[disabled] {
+    background-color: #a1a1a1;
+    color: #fff;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.products-list .actions button[disabled]:hover {
+    background-color: #a1a1a1;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.products-list .actions button:hover {
+    background-color: #fff;
+    color: #109932;
+}
